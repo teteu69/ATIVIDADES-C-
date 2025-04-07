@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+int nota1, nota2;
+float soma, media;
+
+        printf("DIGITE SUA NOTA:"); 
+     scanf("%d", &nota1);             
+     
+        printf("DIGITE SUA NOTA:"); 
+     scanf("%d", &nota2); 
+     
+    
+	soma = nota1 + nota2;
+	media = soma/2;	    	
+     	 
+     if ( media >= 7){
+     	
+     	printf("APROVADO: ");
+        	
+     }
+     
+    else{
+     		
+    printf("reprovado: ");
+    
+     }
+    
+	 printf("MEDIA: %f\n ", media);
+}
