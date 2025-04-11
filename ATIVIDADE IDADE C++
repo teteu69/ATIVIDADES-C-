@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+int idade; 
+char nome[100];
+
+
+printf("Digite seu nome por favor: ");
+scanf("%s", &nome);
+
+printf("digite sua idade: ");
+scanf("%d\n: ", &idade);
+
+if ( idade >= 0 && idade <= 13){
+	
+	printf("CRIANCA : %d ",idade);
+	printf("NOME: %s ", nome);
+
+}
+else if ( idade >= 13 && idade <= 17 ) {
+
+	printf(" ADOLECENTE: %d ",idade);	
+	printf("NOME: %s ", nome);	
+}
+else if ( idade >= 18 && idade <= 59 ) {
+
+	printf(" ADULTO: %d ",idade);	
+	printf("NOME: %s ", nome);	
+}
+else if ( idade >= 60 ) {
+
+	printf(" IDOSO: %d ",idade);	
+	printf("NOME: %s ", nome);	
+}
+
+
+}
