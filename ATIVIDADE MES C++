@@ -1,0 +1,54 @@
+#include <stdio.h>
+
+int main(){
+	
+	int mes;
+	
+	
+	printf("digite o numero do mes: ");
+	scanf("%d\n", &mes);
+	
+	switch(mes){
+		case 1 :
+			printf("JANEITO: %d\n", mes);
+			break;
+			
+			case 2 :
+			printf(" FEVEREIRO: %d\n", mes);
+			break;
+				
+				case 3 :
+			printf("MARCO: %d\n", mes);
+			break;
+				case 4 :
+			printf("ABRIL: %d\n", mes);
+			break;
+				case 5 :
+			printf(" MAIO: %d\n", mes);
+			break;
+				case 6 :
+			printf("JUNHO: %d\n", mes);
+			break;
+				case 7 :
+			printf(" JULHO: %d\n", mes);
+			break;
+				case 8 :
+			printf("AGOSTO: %d\n", mes);
+			break;
+				case 9 :
+			printf("SETEMBRO: %d\n", mes);
+			break;
+				case 10 :
+			printf("OUTOBRO: %d\n", mes);
+			break;
+				case 11 :
+			printf("NOVEMBRO: %d\n", mes);
+			break;	
+			case 12 :
+			printf("DESEMBRO: %d\n", mes);
+			break;	
+		
+		
+		
+	}
+}
