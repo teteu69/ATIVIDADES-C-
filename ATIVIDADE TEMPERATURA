@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+
+int main(){
+	
+	int TEMP;
+	
+	printf("DIGITE A TEMPERATURA: ");
+	scanf("%d\n", &TEMP);
+	
+	if( TEMP > 30){
+		
+		
+		printf("TEMPO ESTA MUITO QUENTE: TEMPERATURA", TEMP);	
+	}
+	
+	else if(TEMP >= 0 && TEMP <= 15){
+		
+		
+		printf("TEMPO ESTA FRIO: TEMPERATURA", TEMP);	
+	}
+	
+	else if(TEMP >= 15 && TEMP <= 30){
+			
+		printf("TEMPO ESTA AGRADAVEL: TEMPERATURA", TEMP);				
+	}
+	
+	else if(TEMP >= 0 && TEMP <= 15){
+			
+		printf("TEMPO ESTA FRIO: TEMPERATURA", TEMP);		
+	}
+	
+	
+}
