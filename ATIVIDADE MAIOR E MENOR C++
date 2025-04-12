@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main(){
+	float numero1, numero2;
+	
+	printf("digite um numero: ");
+	scanf("%f",&numero1);
+	printf("digite outro numero: ");
+	scanf("%f",&numero2);
+	
+	if(numero1 >= numero2){
+		
+		printf(" maior numero: %f", numero1);
+		printf(" MENOR numero: %f", numero2);
+	}
+	else{
+		
+	     printf(" MAIOR numero: %f", numero2);
+	    printf(" MENOR numero: %f", numero1);
+
+
+	}
+}
