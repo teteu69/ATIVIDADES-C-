@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main(){
+	
+	int numero;
+	
+	printf("PAPEL HIGIENICO:1 ");
+	printf(" AGUA SANITARIA:2 ");
+	printf(" DESENFETANTE:3 ");
+	printf(" SABAO EM PO:4 ");
+	printf("LUSTRA-MOVEIS:5 ");
+	
+	printf("digite um numero por favor: ");
+	scanf("%d",&numero);
+		
+	
+	
+		switch(numero){
+			
+			case 1: 
+			printf("Sua escolha foi papel higienico valor de 12,99: ",numero);
+			break;
+			case 2: 
+			printf("Sua escolha Agua Sanitaria valor de 3,50: ",numero);
+			break;
+			case 3: 
+			printf("Sua escolha foi Desenfetante valor de 2,99: ",numero);
+			break;
+			case 4: 
+			printf("Sua escolha foi Sabao em Po valor de 12,99: ",numero);
+			break;
+			case 5: 
+			printf("Sua escolha foi lustra moveis valor de 12,99: ",numero);
+			break;
+	
+		
+		}
+	
+
+}
