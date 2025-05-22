@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include<locale.h>
+#include <stdlib.h>
+#include <windows.h>
+	
+	int main(){
+		
+		int senha, senhacd;
+		char gmail, gmailcd;
+		
+	printf("DIGITE UM GMAIL DE ACESSO = > : ");
+	scanf("%s", &gmailcd);
+	
+	printf("DIGITE UMA SENHA PARA O CADASTRO = >");
+	scanf("%d",&senhacd);
+		
+		system("cls");
+		
+	printf("DIGITE UM GMAIL DE ACESSO = > : ");
+	scanf("%s", &gmail);
+	
+	printf("DIGITE A SENHA = >");
+	scanf("%d",&senha);
+	
+		senha = senhacd; 
+		
+	if (senha == senhacd){
+		
+	
+		printf("senha e gamil corretos acesso liberado: ");	
+		
+	}
+		
+	else{
+		
+		printf("acesso negado:");
+	}	
+	
+	}
